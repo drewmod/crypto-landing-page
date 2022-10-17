@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
-
-
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Poppins", sans-serif;
-    line-height: 1.1;
+    font-family: "Poppins", sans-serif; 
 }
 body{
     background-image: url(assets/bg.png);
@@ -17,19 +13,17 @@ body{
     
 }
 
-/* Navbar */
-
 .navbar{  
     color: #fff;
     background-color: #000;
-    height: 100px;
+    height: 6.3em;
     padding-top: 1em;
     align-items: center;
     
 }
 .logo{
     float: left;
-    width: 110px;
+    width: 6.8em;
     margin:.4em 3em;
 
 }
@@ -37,7 +31,7 @@ body{
     
     margin-left: 16em;
     position: relative;
-    top: 20px;
+    top: 1.2em;
 }
 
 .list-item{
@@ -53,20 +47,18 @@ body{
     border-radius: 5px;
     float: right;
     position: relative;
-    right: 60px;
+    right: 3.7em;
     top: 13px;
 }
 
 .line{
-    height: 43px;
+    height: 2.6em;
     width: 2px;
     background-color: #F7F7F7;
     position: absolute;
-    left: 240px;
-    top: 25px;
+    left: 15em;
+    top: 1.5em;
 }
-
-/* hero section */
 
 .hero{
     height: 80%;
@@ -77,13 +69,14 @@ body{
     
 }
 .hero-heading{
-    font-size: 5rem;
+    font-size: 5em;
     text-align: center;
     padding-top: 0.2em;
 }
 
 .hero-description{
-    font-size: 1.2rem;
+    font-size: 1.2em;
+    margin-top: 7px;
 }
 .button-large{
     border: none;
